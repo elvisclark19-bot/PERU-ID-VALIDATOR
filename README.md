@@ -1,2 +1,7 @@
-# PERU-ID-VALIDATOR
-Validador de DNI, RUC y CARNET DE EXTRANJERÍA PARA PERÚ 
+# PERU-ID-VALIDATOR 🇵🇪
+Valida DNI, RUC y Carnet de Extranjería en Perú, sin dependencias.
+
+## Uso
+from Peru_id import validar_ruc, validar_dni
+validar_ruc("20123456786")
+validar_dni("12345678")
